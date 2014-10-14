@@ -1,0 +1,24 @@
+<!--<h1><%= params[:title] %></h1>-->
+
+
+<div>
+  <a href="<%= @imdb_info_var["urlIMDB"] %>">
+    <img src="<%= @imdb_info_var["urlPoster"] %>" alt= "Official Poster" style="float:left;margin: 20px">
+  </a>
+</div>
+
+<div>
+  <h1>
+    <a href="<%= @imdb_info_var["urlIMDB"] %>">
+      <%= @imdb_info_var['title'] %> (<%= @imdb_info_var["year"] %>)
+    </a>
+  </h1>
+</div>
+
+<div>
+  <p><%= @imdb_info_var["plot"] %></p>
+</div>
+
+<div>
+  <p><%= @imdb_info_var["runtime"].first %><p>
+</div>
