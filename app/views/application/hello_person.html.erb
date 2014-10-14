@@ -1,5 +1,8 @@
 <!--http://localhost:3000/hello_person?name=Ahmad-->
 <!--<h1>hello <%= params[:name] %></h1>-->
+<!-- with forms tags post method is default-->
+
+
 
 <form action="/hello_person">
   <label for="name">Please enter your name: </label>
@@ -8,17 +11,15 @@
   <select name="greeting_type">
     <option value="h">Hello</option>
     <option value="g">Goodbye</option>
-
   </select>
 
   <input type="submit" value="Go"/>
 </form>
 
+<% if params[:name].present? %>
+  <h1><%= @greeting %> <%= params[:name].capitalize %></h1>
+<% end %>
+
 <!--<% if params[:name].present? %>
   <h1>Hello <%= params[:name].capitalize %></h1>
 <% end %>-->
-
-
-<% if params[:name].present? %>
-  <h1><% @greeting %> <%= params[:name].capitalize %></h1>
-<% end %>

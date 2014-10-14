@@ -1,24 +1,36 @@
-<!--<h1><%= params[:title] %></h1>-->
+  <form action="/query_movie">
+    <label for="search">Please enter a movie title or movie name: </label>
+    <input type="text" name="search"/>
 
+    <select name="search_type">
+      <option value="t">Title</option>
+      <option value="a">Actor</option>
+    </select>
 
-<div>
-  <a href="<%= @imdb_info_var["urlIMDB"] %>">
-    <img src="<%= @imdb_info_var["urlPoster"] %>" alt= "Official Poster" style="float:left;margin: 20px">
-  </a>
-</div>
+    <input type="submit" value="Go"/>
+  </form>
 
-<div>
-  <h1>
-    <a href="<%= @imdb_info_var["urlIMDB"] %>">
-      <%= @imdb_info_var['title'] %> (<%= @imdb_info_var["year"] %>)
-    </a>
-  </h1>
-</div>
-
-<div>
-  <p><%= @imdb_info_var["plot"] %></p>
-</div>
-
-<div>
-  <p><%= @imdb_info_var["runtime"].first %><p>
-</div>
+<% if params[:search].present? %>
+  <% if params[:search_type] == "t" %>
+<!--This is for a Title search-->
+    <div>
+      <a href="<%= @imdb_info_var["urlIMDB"] %>">
+        <img src="<%= @imdb_info_var["urlPoster"] %>" alt= "Official Poster" style="float:left;margin: 20px">
+      </a>
+      <h1>
+        <a href="<%= @imdb_info_var["urlIMDB"] %>">
+          <%= @imdb_info_var['title'] %> (<%= @imdb_info_var["year"] %>)
+        </a>
+      </h1>
+      <p><%= @imdb_info_var["plot"] %></p>
+      <p><%= @imdb_info_var["runtime"].first %><p>
+    <div>
+  <% else %>
+<!--This is for an Actor's Name search-->
+    <div>
+    <img src="<%= @imdb_info_var["urlPhoto"] %>" style="float:left;margin: 20px">
+    <p><%= @imdb_info_var["name"] %></p>
+    <p><%= @imdb_info_var["bio"] %><p>
+    <div>
+  <% end %>
+<% end %>
