@@ -49,4 +49,5 @@ class ApplicationController < ActionController::Base
     @imdb_info_var = JSON.parse(imdb_file).first
   end
 =end
+
 end
