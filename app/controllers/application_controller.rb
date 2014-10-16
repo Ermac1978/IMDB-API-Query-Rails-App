@@ -35,7 +35,7 @@ class ApplicationController < ActionController::Base
       if params[:search_type] == "t"
         uri = URI(QUERY_URL + "?title=#{URI.escape(movie_title)}")
       else
-        uri = URI(QUERY_URL + "?name=#{URI.escape(movie_title)}")
+        uri = URI(QUERY_URL + "?name=#{URI.escape(movie_title)}&filmography=1")
       end
       imdb_info_json = Net::HTTP.get(uri)
       imdb_info_ruby = JSON.parse(imdb_info_json)
@@ -43,5 +43,10 @@ class ApplicationController < ActionController::Base
     end
   end
 
-
+=begin
+  def query_movie
+    imdb_file = File.read("Taken.json")
+    @imdb_info_var = JSON.parse(imdb_file).first
+  end
+=end
 end
