@@ -1,0 +1,178 @@
+[
+  {
+    "actors": [
+      {
+        "actorId": "nm0000553",
+        "actorName": "Liam Neeson",
+        "character": "Bryan Mills",
+        "urlCharacter": "http://www.imdb.com/character/ch0116776",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM4MzI5ODc5OF5BMl5BanBnXkFtZTgwMjc3MzMyMDE@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0000553"
+      },
+      {
+        "actorId": "nm1192254",
+        "actorName": "Maggie Grace",
+        "character": "Kim",
+        "urlCharacter": "http://www.imdb.com/character/ch0101951",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BOTc2MDM2MzQ1N15BMl5BanBnXkFtZTcwNDk2NzU5Mg@@._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm1192254"
+      },
+      {
+        "actorId": "nm0340973",
+        "actorName": "Jon Gries",
+        "character": "Casey",
+        "urlCharacter": "http://www.imdb.com/character/ch0135700",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI1NTkwNjg0NV5BMl5BanBnXkFtZTYwNzg2Njc1._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0340973"
+      },
+      {
+        "actorId": "nm0913175",
+        "actorName": "David Warshofsky",
+        "character": "Bernie",
+        "urlCharacter": "http://www.imdb.com/character/ch0094049",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTM5NDY4NDY0OF5BMl5BanBnXkFtZTcwMzE0MDczNA@@._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0913175"
+      },
+      {
+        "actorId": "nm0883480",
+        "actorName": "Holly Valance",
+        "character": "Sheerah",
+        "urlCharacter": "http://www.imdb.com/character/ch0134851",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTY1NzIyMjkyMl5BMl5BanBnXkFtZTYwMTI1ODgy._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0883480"
+      },
+      {
+        "actorId": "nm1556320",
+        "actorName": "Katie Cassidy",
+        "character": "Amanda",
+        "urlCharacter": "http://www.imdb.com/character/ch0130215",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjMyMzA1MTY2MV5BMl5BanBnXkFtZTgwMzIyNzQ3MDE@._V1_SY44_CR2,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm1556320"
+      },
+      {
+        "actorId": "nm0075359",
+        "actorName": "Xander Berkeley",
+        "character": "Stuart",
+        "urlCharacter": "http://www.imdb.com/character/ch0130214",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTAwMjA1OTEwOTheQTJeQWpwZ15BbWU2MDkxODgxMw@@._V1_SY44_CR2,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0075359"
+      },
+      {
+        "actorId": "nm0705005",
+        "actorName": "Olivier Rabourdin",
+        "character": "Jean-Claude",
+        "urlCharacter": "http://www.imdb.com/character/ch0128243",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjEyNjU2MDI3MF5BMl5BanBnXkFtZTcwOTk3MDE1Mw@@._V1_SY44_CR17,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0705005"
+      },
+      {
+        "actorId": "nm0914313",
+        "actorName": "Gérard Watkins",
+        "character": "St-Clair",
+        "urlCharacter": "http://www.imdb.com/character/ch0134852",
+        "urlPhoto": "",
+        "urlProfile": "http://www.imdb.com/name/nm0914313"
+      },
+      {
+        "actorId": "nm0000463",
+        "actorName": "Famke Janssen",
+        "character": "Lenore",
+        "urlCharacter": "http://www.imdb.com/character/ch0059438",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BNDQ5MjU2NTQ0OV5BMl5BanBnXkFtZTcwNzAzODU1Mg@@._V1_SY44_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0000463"
+      },
+      {
+        "actorId": "nm0650702",
+        "actorName": "Leland Orser",
+        "character": "Sam",
+        "urlCharacter": "http://www.imdb.com/character/ch0098835",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjMwODE2ODM5OF5BMl5BanBnXkFtZTgwODc5NzIyMTE@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0650702"
+      },
+      {
+        "actorId": "nm0025509",
+        "actorName": "Marc Amyot",
+        "character": "Pharmacist",
+        "urlCharacter": "http://www.imdb.com/character/ch0135698",
+        "urlPhoto": "",
+        "urlProfile": "http://www.imdb.com/name/nm0025509"
+      },
+      {
+        "actorId": "nm0048076",
+        "actorName": "Arben Bajraktaraj",
+        "character": "Marko",
+        "urlCharacter": "http://www.imdb.com/character/ch0128242",
+        "urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTQ4NTI4Mjg0MV5BMl5BanBnXkFtZTcwNzg5OTA5Nw@@._V1_SX32_CR0,0,32,44_AL_.jpg",
+        "urlProfile": "http://www.imdb.com/name/nm0048076"
+      },
+      {
+        "actorId": "nm1366568",
+        "actorName": "Radivoje Bukvic",
+        "character": "Anton",
+        "urlCharacter": "http://www.imdb.com/character/ch0129062",
+        "urlPhoto": "",
+        "urlProfile": "http://www.imdb.com/name/nm1366568"
+      },
+      {
+        "actorId": "nm0688550",
+        "actorName": "Mathieu Busson",
+        "character": "Undercover Agent",
+        "urlCharacter": "http://www.imdb.com/character/ch0135703",
+        "urlPhoto": "",
+        "urlProfile": "http://www.imdb.com/name/nm0688550"
+      }
+    ],
+    "countries": [
+      "France",
+      "USA",
+      "UK"
+    ],
+    "directors": [
+      {
+        "name": "Pierre Morel",
+        "nameId": "nm0603628"
+      }
+    ],
+    "filmingLocations": [
+      "Avenue des Champs-Élysées",
+      "Paris 8",
+      "Paris",
+      "France"
+    ],
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "idIMDB": "tt0936501",
+    "languages": [
+      "English",
+      "French",
+      "Albanian",
+      "Arabic"
+    ],
+    "metascore": "50/100",
+    "plot": "Seventeen year-old Kim is the pride and joy of her father Bryan Mills. Bryan is a retired agent who left the Central Intelligence Agency to be near Kim in California. Kim lives with her mother Lenore and her wealthy stepfather Stuart. Kim manages to convince her reluctant father to allow her to travel to Paris with her friend Amanda. When the girls arrive in Paris they share a cab with a stranger named Peter, and Amanda lets it slip that they are alone in Paris. Using this information an Albanian gang of human traffickers kidnaps the girls. Kim barely has time to call her father and give him information. Her father gets to speak briefly to one of the kidnappers and he promises to kill the kidnappers if they do not let his daughter go free. The kidnapper wishes him \"good luck,\" so Bryan Mills travels to Paris to search for his daughter and her friend. Written by Claudio Carvalho, Rio de Janeiro, Brazil",
+    "rated": "PG-13",
+    "rating": "7.9",
+    "releaseDate": "20090130",
+    "runtime": [
+      "93 min"
+    ],
+    "simplePlot": "A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.",
+    "title": "Taken",
+    "urlIMDB": "http://www.imdb.com/title/tt0936501",
+    "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTM4NzQ0OTYyOF5BMl5BanBnXkFtZTcwMDkyNjQyMg@@._V1_SX214_AL_.jpg",
+    "writers": [
+      {
+        "name": "Luc Besson",
+        "nameId": "nm0000108"
+      },
+      {
+        "name": "Robert Mark Kamen",
+        "nameId": "nm0436543"
+      }
+    ],
+    "year": "2008"
+  }
+]
