@@ -38,6 +38,11 @@ ul.a {
     list-style-type: circle;
 }
 
+.movie_poster {
+    float:left;
+    margin: 20px;
+}
+
 .movie_title {
     font-family: 'Roboto', serif;
     font-size: 35px;
@@ -45,7 +50,7 @@ ul.a {
 }
 
 .movie_plot {
-    font-family: 'Revalia', serif;
+    font-family: 'Lato', serif;
     font-size: 15px;
     text-shadow: 4px 4px 4px #aaa;
 }
