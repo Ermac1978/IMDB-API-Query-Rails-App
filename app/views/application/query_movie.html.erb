@@ -7,8 +7,8 @@
   <input type="submit" value="Go"/>
 <% end %>
 
-<%# if params[:search].present? %>
-  <%# if params[:search_type] == "t" %>
+<% if params[:search].present? %>
+  <% if params[:search_type] == "t" %>
 <!--This is for a Movie Title search-->
     <div>
       <!--<a href="<%# @imdb_info_var["urlIMDB"] %>">-->
@@ -30,12 +30,19 @@
         <% end %>
       <ul>
     <div>
-  <%# else %>
+  <% else %>
 <!--This is for an Actor's Name search-->
     <div>
       <img src="<%= @imdb_info_var["urlPhoto"] %>" style="width:250px;height:300px;float:left;margin: 20px">
       <h1 class="movie_title" style="color:red"><%= @imdb_info_var["name"]%></h1>
       <p class="movie_plot italicize"><%= @imdb_info_var["bio"] %><p>
     <div>
-  <%# end %>
-<%# end %>
+      <p>Actor Filmography:</p>
+      <ul class="a movie_plot italicize">
+        <% @imdb_info_var['filmographies'][0]['filmography'].each do |film| %>
+          <li><%= film['title'] %> </li>
+        <% end %>
+      <ul>
+    <div>
+  <% end %>
+<% end %>

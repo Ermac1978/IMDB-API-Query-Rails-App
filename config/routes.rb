@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
    get 'pigatize', to: 'application#pigatize'
    get 'query_movie', to: 'application#query_movie'
-
+   post 'query_movie', to: 'application#query_movie'
 
 
   # Example of regular route:
