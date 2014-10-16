@@ -28,7 +28,7 @@ class ApplicationController < ActionController::Base
     @pigatize_text = params[:text].pigatize
   end
 
-
+=begin
   def query_movie
     movie_title = params[:search]
     if movie_title.present?
@@ -42,12 +42,12 @@ class ApplicationController < ActionController::Base
       @imdb_info_var = imdb_info_ruby.first
     end
   end
+=end
 
-=begin
   def query_movie
     imdb_file = File.read("Taken.json")
     @imdb_info_var = JSON.parse(imdb_file).first
   end
-=end
+
 
 end
